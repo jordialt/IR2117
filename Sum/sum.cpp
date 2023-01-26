@@ -11,11 +11,11 @@ int main(){
 	std::cout<<"Introduce un número: ";
 	std::cin>>num;
 	std::cout<<std::endl;
-	if(num>=1){
-		std::cout<<"The sum from 1 to "<<num<<" is: "<<suma(num)<<std::endl;
-	
-	}else{
-		std::cout<<"El número debe ser mayor o igual a 1";
+	while(num<1){
+		std::cout<<"Vuelve a introducir un número: ";
+		std::cin>>num;
+		
 	}
+	std::cout<<"La suma de 1 a "<<num<<" es: "<<suma(num)<<std::endl;
 	return 0;
 }
