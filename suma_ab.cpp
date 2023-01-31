@@ -11,7 +11,7 @@ int main(){
 	do{
 		std::cout<<"Enter b: ";
     	std::cin>>b;
-	}while(b<1);
+	}while(b<a);
     
     for(int i=a;i<=b;i++){
         suma+=i;
