@@ -1,16 +1,19 @@
 #include <iostream>
 
 int main(){
-	int numA, numB,suma=0;
+	int a, b,suma=0;
 	do{
 		std::cout<<"Enter a: ";
-		std::cin>>numA;
+		std::cin>>a;
 
-	}while(numA<1);
+	}while(a<1);
 	std::cout<<std::endl;
-    std::cout<<"Enter b: ";
-    std::cin>>numB;
-    for(int i=numA;i<=numB;i++){
+	do{
+		std::cout<<"Enter b: ";
+    	std::cin>>b;
+	}while(b<1);
+    
+    for(int i=a;i<=b;i++){
         suma+=i;
     }
 	std::cout<<"The sum is: "<<suma<<std::endl;
