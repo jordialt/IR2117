@@ -2,8 +2,11 @@
 
 int main(){
 	int numA, numB,suma=0;
-	std::cout<<"Enter a: ";
-	std::cin>>numA;
+	do{
+		std::cout<<"Enter a: ";
+		std::cin>>numA;
+
+	}while(numA<1);
 	std::cout<<std::endl;
     std::cout<<"Enter b: ";
     std::cin>>numB;
