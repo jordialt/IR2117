@@ -14,10 +14,18 @@ int main(){
         std::cout<<"There are no real solutions";
     }
     else{
+        if(discriminant==0){
+            x1=-b/(2*a);
+            std::cout<<"x1= "<<x1<<std::endl;
+
+
+        }
+        else{
         x1=(-b+sqrt(discriminant))/2*a;
         x2=(-b-sqrt(discriminant))/2*a;
         std::cout<<"x1= "<<x1<<std::endl;
         std::cout<<"x2= "<<x2<<std::endl;
+        }
 
     }
     return 0;
