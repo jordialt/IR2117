@@ -1,0 +1,16 @@
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/lib/examples_sum/sum
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/ament_index/resource_index/package_run_dependencies/examples_sum
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/ament_index/resource_index/parent_prefix_path/examples_sum
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/environment/ament_prefix_path.sh
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/environment/ament_prefix_path.dsv
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/environment/path.sh
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/environment/path.dsv
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/local_setup.bash
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/local_setup.sh
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/local_setup.zsh
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/local_setup.dsv
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/package.dsv
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/ament_index/resource_index/packages/examples_sum
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/cmake/examples_sumConfig.cmake
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/cmake/examples_sumConfig-version.cmake
+/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_sum/share/examples_sum/package.xml

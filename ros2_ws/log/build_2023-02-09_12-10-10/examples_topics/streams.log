@@ -1,0 +1,71 @@
+[0.010s] Invoking command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jordi/Documents/GitHub/IR2117/ros2_ws/src/examples/topics -DCMAKE_INSTALL_PREFIX=/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics
+[0.083s] -- The C compiler identification is GNU 9.4.0
+[0.136s] -- The CXX compiler identification is GNU 9.4.0
+[0.144s] -- Check for working C compiler: /usr/bin/cc
+[0.216s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.217s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.296s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.381s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Detecting CXX compile features
+[0.468s] -- Detecting CXX compile features - done
+[0.470s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.493s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.493s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.679s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.725s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.811s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.839s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.964s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.967s] -- Looking for pthread.h
+[1.039s] -- Looking for pthread.h - found
+[1.039s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.109s] -- Looking for pthread_create in pthreads
+[1.170s] -- Looking for pthread_create in pthreads - not found
+[1.170s] -- Looking for pthread_create in pthread
+[1.237s] -- Looking for pthread_create in pthread - found
+[1.239s] -- Found Threads: TRUE  
+[1.444s] -- Configuring done
+[1.453s] -- Generating done
+[1.455s] -- Build files have been written to: /home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics
+[1.463s] Invoked command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jordi/Documents/GitHub/IR2117/ros2_ws/src/examples/topics -DCMAKE_INSTALL_PREFIX=/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics
+[1.464s] Invoking command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics -- -j1 -l1
+[1.504s] [35m[1mScanning dependencies of target subscriber[0m
+[1.537s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber.dir/subscriber.cpp.o[0m
+[6.065s] [ 50%] [32m[1mLinking CXX executable subscriber[0m
+[6.301s] [ 50%] Built target subscriber
+[6.312s] [35m[1mScanning dependencies of target publisher[0m
+[6.343s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[9.042s] [100%] [32m[1mLinking CXX executable publisher[0m
+[9.211s] [100%] Built target publisher
+[9.224s] Invoked command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics -- -j1 -l1
+[9.253s] Invoking command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics
+[9.263s] -- Install configuration: ""
+[9.263s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/lib/examples_topics/publisher
+[9.265s] -- Set runtime path of "/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/lib/examples_topics/publisher" to ""
+[9.265s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/lib/examples_topics/subscriber
+[9.267s] -- Set runtime path of "/home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/lib/examples_topics/subscriber" to ""
+[9.267s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/ament_index/resource_index/package_run_dependencies/examples_topics
+[9.267s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/ament_index/resource_index/parent_prefix_path/examples_topics
+[9.268s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/environment/ament_prefix_path.sh
+[9.268s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/environment/ament_prefix_path.dsv
+[9.268s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/environment/path.sh
+[9.268s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/environment/path.dsv
+[9.269s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/local_setup.bash
+[9.269s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/local_setup.sh
+[9.269s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/local_setup.zsh
+[9.269s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/local_setup.dsv
+[9.270s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/package.dsv
+[9.271s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/ament_index/resource_index/packages/examples_topics
+[9.271s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig.cmake
+[9.272s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/cmake/examples_topicsConfig-version.cmake
+[9.272s] -- Installing: /home/jordi/Documents/GitHub/IR2117/ros2_ws/install/examples_topics/share/examples_topics/package.xml
+[9.283s] Invoked command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics
