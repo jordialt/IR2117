@@ -1,9 +1,13 @@
 #include <iostream>
-int main(int argc, char** argv) {
+int main() {
     double m=0, s=0;
-    int n=argc-1;
-    for (int i=1; i<=n;i++) {
-        s += atoi(argv[i]);
+    int n=0, num=-1;
+    while(num!=0){
+        std::cin>>num;
+        if(num!=0){
+            s+=num;
+            n++;
+        }
     }
 
     m= s/n;
