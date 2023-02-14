@@ -1,9 +1,8 @@
 #include <iostream>
 
-int suma(int num){
-
-	int suma=(num*(num+1))/2;
-	return suma;
+int suma( int num) {
+	int suma= (num * (num+1))/2;
+	return suma; 
 }
 
 int main(){
