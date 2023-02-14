@@ -6,7 +6,7 @@ int main(int argc, char** argv) {
         s += atoi(argv[i]);
     }
 
-    m= s/m;
+    m= s/n;
     std::cout<< "Arithmetic mean: " << m << std::endl;
     return 0;
 }
