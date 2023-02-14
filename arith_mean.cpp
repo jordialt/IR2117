@@ -1,14 +1,14 @@
 #include <iostream>
 int main() {
     double m=0, s=0;
-    int n=0, num=-1;
-    while(num!=0){
+    int n=0, num;
+    std::cin>>num;
+    while(!std::cin.eof()){
+        s+=num;
+        n++;
         std::cin>>num;
-        if(num!=0){
-            s+=num;
-            n++;
-        }
     }
+    
 
     m= s/n;
     std::cout<< "Arithmetic mean: " << m << std::endl;
