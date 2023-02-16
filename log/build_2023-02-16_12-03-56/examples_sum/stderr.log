@@ -1,0 +1,3 @@
+make[2]: *** [CMakeFiles/sum.dir/build.make:63: CMakeFiles/sum.dir/sum.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sum.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt
