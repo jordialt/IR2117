@@ -12,21 +12,16 @@ int main() {
     for (int value : elements){
         counts[value]++;
     }
-    int n=elements.size();
-    int count[n],max=0;
-    for(int j=0; j<n; j++){
-        count[j]=0;
-        for (int i=0;i<n;i++){
-            if(elements[i]==elements[j]){
-                count[j]++;
-            }
-        if(count[j]>count[max])
-            max=j;
+    int m = 0;
+    int m_count = 0;
+    for (auto pair:counts){
+        int value = pair.first;
+        int count = pair.second;
+        if (count > m_count){
+            m = value;
+            m_count = count;
         }
-    
     }
-
-    m=elements[max];
     std::cout<< "Mode: " << m << std::endl;
     return 0;
 }
