@@ -1,16 +1,11 @@
 #include <iostream>
 #include <vector>
+#include "utils.hpp"
 int main() {
     double m=0, s=0;
     int n=0, element;
     std::vector<int> elements;
-    std::cin>>element;
-    while(!std::cin.eof()){
-        elements.push_back(element);
-        n++;
-        std::cin>>element;
-    }
-    
+    elements=ReadElements();
     for (int i:elements)
         s+= i;
     m= s/n;

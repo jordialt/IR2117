@@ -1,15 +1,12 @@
 #include <iostream>
 #include <vector>
+#include "utils.hpp"
 
 int main() {
     double m=0;
     int element;
     std::vector<int> elements;
-    std::cin>>element;
-    while(!std::cin.eof()){
-        elements.push_back(element);
-        std::cin>>element;
-    }
+    elements=ReadElements();
     int n=elements.size();
     int count[n],max=0;
     for(int j=0; j<n; j++){
