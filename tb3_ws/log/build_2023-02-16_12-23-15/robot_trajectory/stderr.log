@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:28 (install):
+  install TARGETS given target "publisher" which does not exist.
+
+

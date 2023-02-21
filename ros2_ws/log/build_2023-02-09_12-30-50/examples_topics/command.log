@@ -1,0 +1,4 @@
+Invoking command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics -- -j1 -l1
+Invoked command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics -- -j1 -l1
+Invoking command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics
+Invoked command in '/home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jordi/Documents/GitHub/IR2117/ros2_ws/build/examples_topics
