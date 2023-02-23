@@ -1,3 +1,6 @@
+#define _USE_MATH_DEFINES
+
+#include <cmath>
 #include <chrono>
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -23,7 +26,7 @@ int main(int argc, char * argv[])
   double square_length = node->get_parameter("square_length").get_parameter_value().get<double>();
   
   double linear_iterations = square_length/(0.01*linear_speed);
-  double angular_iterations = 3.1416/(0.02*angular_speed);
+  double angular_iterations = M_PI/(0.02*angular_speed);
  
   for(int j=0;j<4;j++){
   	int i=0,n=linear_iterations;
