@@ -27,6 +27,9 @@ for(int i=0;i<rows;i++){
 
 std::cout<<"The sum of rows is: "<<std::endl;
 std::cout<<m.rowwise().sum()<<std::endl;
+std::cout<<"The sum of columns is: "<<std::endl;
+std::cout<<m.colwise().sum()<<std::endl;
+
 
 
     return 0;
