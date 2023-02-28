@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <Eigen/Dense>
 
 using Eigen::MatrixXd;
@@ -23,6 +24,11 @@ for(int i=0;i<rows;i++){
         };
         std::cout<<std::endl;
     }
+
+std::cout<<"The sum of rows is: "<<std::endl;
+std::cout<<m.rowwise().sum()<<std::endl;
+
+
     return 0;
 }
 
