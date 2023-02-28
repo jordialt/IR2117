@@ -1,15 +1,20 @@
 #include <Eigen/Dense>
 #include <iostream>
 #include "utils_eigen.hpp"
+#include <vector>
 
 Eigen::VectorXd ReadElementsEigen() {
-    int n;
-    std::cin >> n;
-    Eigen::VectorXd elements(n);
-    for (int i = 0; i < n; i++) {
-        double x;
-        std::cin >> x;
-        elements(i) = x;
+    std::vector<double> elements
+    double x;
+    
+    while(std::cin>>x){
+        elements.push_back(x);
     }
-    return elements;
+    int n=elements.size();
+    Eigen::VectorXd vec(n);
+    for (int i = 0; i < n; i++) {
+    
+        vec(i) = elements[i];
+    }
+    return vec;
 }
