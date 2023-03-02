@@ -4,20 +4,27 @@
 #include <chrono>
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
+#include "nav_msgs/msg/odometry.hpp"
 
 using namespace std::chrono_literals;
+
+void odom_callback(nav_msgs::msg::Odometry::SharedPtr msg){
+	std::cout<<msg<<std::endl;
+}
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
   auto node = rclcpp::Node::make_shared("publisher");
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+  auto subscription = node->create_subscription<nav_msgs::msg::Odometry>("odom", 10,odom_callback);
   node->declare_parameter("linear_speed",0.1);
   node->declare_parameter("angular_speed",3.1416/20);
   node->declare_parameter("square_length",1.0);
   
   
   geometry_msgs::msg::Twist message;
+  nav_msgs::msg::Odometry odometry;
   rclcpp::WallRate loop_rate(10ms);
   
  
