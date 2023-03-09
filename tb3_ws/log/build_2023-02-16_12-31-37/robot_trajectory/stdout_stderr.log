@@ -1,1 +1,0 @@
-CMake Error: The source "/home/jordi/Documents/GitHub/IR2117/tb3_ws/src/robot_trajectory/include/CMakeLists.txt" does not match the source "/home/jordi/Documents/GitHub/IR2117/tb3_ws/src/robot_trajectory/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.

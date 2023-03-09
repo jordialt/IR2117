@@ -1,0 +1,4 @@
+make[2]: *** Se borra el archivo 'CMakeFiles/square_odom.dir/src/square_odom.cpp.o'
+make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Interrupción
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square_odom.dir/all] Interrupción
+make: *** [Makefile:141: all] Interrupción
