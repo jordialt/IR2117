@@ -11,7 +11,7 @@ using namespace std::chrono_literals;
 double x,y,w,ang;
 
 int i=0;
-double x_ini,y_ini,ang_ini,dist;
+double x_ini,y_ini,ang_ini,dist,dif_ang;
 
 void odom_callback(nav_msgs::msg::Odometry::SharedPtr msg){
     
@@ -29,10 +29,12 @@ void odom_callback(nav_msgs::msg::Odometry::SharedPtr msg){
     w=msg->pose.pose.orientation.w;
     ang=acos(w)*2;
     dist=std::sqrt(std::pow((x-x_ini),2) + std::pow((y-y_ini),2));
+    dif_ang=ang-ang_ini;
     std::cout<<"X: "<<x<<std::endl;
     std::cout<<"Y: "<<y<<std::endl;
     std::cout<<"Theta: "<< ang <<std::endl;
     std::cout<<"Dist: "<<dist<<std::endl;
+    std::cout<<"Diferencia de angles: "<<dif_ang<<std::endl;
 }
 
 int main(int argc, char * argv[])
