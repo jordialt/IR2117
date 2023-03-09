@@ -10,8 +10,20 @@ using namespace std::chrono_literals;
 
 double x,y,w,ang;
 
+int i=0;
+double x_ini,y_ini,ang_ini;
+
 void odom_callback(nav_msgs::msg::Odometry::SharedPtr msg){
-	std::cout<<msg<<std::endl;
+    
+    if(i==0){
+        x_ini = msg->pose.pose.position.x;
+        y_ini = msg->pose.pose.position.y;
+        w=msg->pose.pose.orientation.w;
+        ang_ini=acos(w)*2;
+        i++;
+        
+    }
+	
     x = msg->pose.pose.position.x;
     y = msg->pose.pose.position.y;
     w=msg->pose.pose.orientation.w;
@@ -43,6 +55,7 @@ int main(int argc, char * argv[])
   
   double linear_iterations = square_length/(0.01*linear_speed);
   double angular_iterations = M_PI/(0.02*angular_speed);
+  
  
   for(int j=0;j<4;j++){
   	int i=0,n=linear_iterations;
