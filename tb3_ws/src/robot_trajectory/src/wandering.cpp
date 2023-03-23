@@ -7,7 +7,11 @@ using namespace std::chrono_literals;
 
 
 void scan_callback(sensor_msgs::msg::LaserScan::SharedPtr msg){
-    std::cout<<msg<<std::endl;
+    auto v = msg->ranges;
+    std::cout<<v[0]<<std::endl;
+    std::cout<<v[90]<<std::endl;
+    std::cout<<v[180]<<std::endl;
+    std::cout<<v[270]<<std::endl;
     
 }
 
