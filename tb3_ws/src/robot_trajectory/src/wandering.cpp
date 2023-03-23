@@ -44,16 +44,23 @@ int main(int argc, char * argv[])
   
   rclcpp::WallRate loop_rate(10ms);
 
-  while (rclcpp::ok() && min>1.0) {
+  while (rclcpp::ok()) {
+    if(min>1.0){
     message.linear.x = 0.6;
+    message.angular.z = 0.0;
     publisher->publish(message);
     rclcpp::spin_some(node);
     loop_rate.sleep();
+    }
+    else{
+        message.linear.x = 0.0;
+        message.angular.z = 0.6;
+        publisher->publish(message);
+        rclcpp::spin_some(node);
+        loop_rate.sleep();
+    }
   }
-  message.linear.x = 0.0;
-  publisher->publish(message);
-  rclcpp::spin_some(node);
-  loop_rate.sleep();
+  
   rclcpp::shutdown();
   return 0;
 }
