@@ -8,10 +8,14 @@ using namespace std::chrono_literals;
 
 void scan_callback(sensor_msgs::msg::LaserScan::SharedPtr msg){
     auto v = msg->ranges;
-    std::cout<<v[0]<<std::endl;
-    std::cout<<v[90]<<std::endl;
-    std::cout<<v[180]<<std::endl;
-    std::cout<<v[270]<<std::endl;
+    
+    for(int i=0; i<10;i++)
+        std::cout<<v[i]<<std::endl;
+    
+    std::cout<<" "<<std::endl;
+    for(int i=350;i<360;i++)
+        std::cout<<v[i]<<std::endl;
+
     
 }
 
