@@ -46,7 +46,7 @@ int main(int argc, char * argv[])
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
   auto subscription = node->create_subscription<nav_msgs::msg::Odometry>("odom", 10,odom_callback);
   node->declare_parameter("linear_speed",0.1);
-  node->declare_parameter("angular_speed",3.1416/20);
+  node->declare_parameter("angular_speed",M_PI/25);
   node->declare_parameter("square_length",1.0);
   
   
@@ -59,8 +59,8 @@ int main(int argc, char * argv[])
   double angular_speed = node->get_parameter("angular_speed").get_parameter_value().get<double>();
   double square_length = node->get_parameter("square_length").get_parameter_value().get<double>();
   
-  for(int j=0;j<5;j++){
-  for(int j=0;j<4;j++){
+
+  for(int j=0;j<11;j++){
   	turn=true;
   	while (rclcpp::ok() && ((dist+0.001<square_length))) {
   		message.linear.x = linear_speed;
@@ -75,13 +75,16 @@ int main(int argc, char * argv[])
   	rclcpp::spin_some(node);
   	loop_rate.sleep();
   
-	
-  	while (rclcpp::ok() && ((dif_ang < M_PI/2))) {
+	if(j==10){
+    		    break;
+    		    }
+  	while (rclcpp::ok() && (dif_ang < M_PI/2)) {
   		message.angular.z = angular_speed;
     		publisher->publish(message);
     		rclcpp::spin_some(node);
     		loop_rate.sleep();
     		dif_ang=abs(ang-ang_ini);
+    		
   	}
   	message.angular.z = 0.0;
   	publisher->publish(message);
@@ -89,9 +92,7 @@ int main(int argc, char * argv[])
   	loop_rate.sleep();
   	
   }
-  }
   
-  	
   message.linear.x = 0.0;
   message.angular.z = 0.0;
   publisher->publish(message);
@@ -99,6 +100,6 @@ int main(int argc, char * argv[])
   loop_rate.sleep();
   rclcpp::shutdown();
   return 0;
+  }
 
-}
 
