@@ -4,7 +4,6 @@
 
 void callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
 {
-  std::cout << msg->data << std::endl;
 }
 
 int main(int argc, char * argv[])
