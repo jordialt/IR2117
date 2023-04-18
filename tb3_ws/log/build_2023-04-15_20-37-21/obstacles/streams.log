@@ -1,0 +1,28 @@
+[0.049s] Invoking command in '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles -- -j4 -l4
+[0.095s] [35m[1mScanning dependencies of target detector[0m
+[0.137s] [ 50%] [32mBuilding CXX object CMakeFiles/detector.dir/src/detector.cpp.o[0m
+[4.805s] [100%] [32m[1mLinking CXX executable detector[0m
+[5.095s] [100%] Built target detector
+[5.107s] Invoked command in '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles -- -j4 -l4
+[5.132s] Invoking command in '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles
+[5.141s] -- Install configuration: ""
+[5.141s] -- Installing: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/lib/obstacles/detector
+[5.143s] -- Set runtime path of "/home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/lib/obstacles/detector" to ""
+[5.143s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/launch
+[5.143s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/launch/detector_test.launch.py
+[5.143s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/ament_index/resource_index/package_run_dependencies/obstacles
+[5.143s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/ament_index/resource_index/parent_prefix_path/obstacles
+[5.143s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.sh
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.dsv
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/environment/path.sh
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/environment/path.dsv
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/local_setup.bash
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/local_setup.sh
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/local_setup.zsh
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/local_setup.dsv
+[5.144s] -- Installing: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/package.dsv
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/ament_index/resource_index/packages/obstacles
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig.cmake
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig-version.cmake
+[5.144s] -- Up-to-date: /home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles/share/obstacles/package.xml
+[5.146s] Invoked command in '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles

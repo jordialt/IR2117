@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000436] (obstacles) JobQueued: {'identifier': 'obstacles', 'dependencies': OrderedDict()}
+[0.000722] (robot_trajectory) JobQueued: {'identifier': 'robot_trajectory', 'dependencies': OrderedDict()}
+[0.000749] (obstacles) JobStarted: {'identifier': 'obstacles'}
+[0.025776] (robot_trajectory) JobStarted: {'identifier': 'robot_trajectory'}
+[0.047893] (obstacles) JobProgress: {'identifier': 'obstacles', 'progress': 'cmake'}
+[0.048207] (obstacles) Command: {'cmd': ['/usr/bin/cmake', '/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles', '-DCMAKE_INSTALL_PREFIX=/home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles'], 'cwd': '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jab'), ('SSH_AGENT_PID', '1016'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/jab'), ('OLDPWD', '/home/jab'), ('DESKTOP_SESSION', 'pop'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('MANAGERPID', '811'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'jab'), ('JOURNAL_STREAM', '8:36547'), ('_', '/home/jab/.local/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/jab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jab/.local/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/1056,unix/pop-os:/tmp/.ICE-unix/1056'), ('INVOCATION_ID', 'ba40d2d047124a22a80736f234770957'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3113865_e608_4177_a3c9_b1cff37b3ada'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/home/jab/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.053957] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'cmake'}
+[0.058727] (robot_trajectory) Command: {'cmd': ['/usr/bin/cmake', '/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory', '-DCMAKE_INSTALL_PREFIX=/home/jab/Documentos/GitHub/IR2117/tb3_ws/install/robot_trajectory'], 'cwd': '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jab'), ('SSH_AGENT_PID', '1016'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/jab'), ('OLDPWD', '/home/jab'), ('DESKTOP_SESSION', 'pop'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('MANAGERPID', '811'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'jab'), ('JOURNAL_STREAM', '8:36547'), ('_', '/home/jab/.local/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/jab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jab/.local/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/1056,unix/pop-os:/tmp/.ICE-unix/1056'), ('INVOCATION_ID', 'ba40d2d047124a22a80736f234770957'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3113865_e608_4177_a3c9_b1cff37b3ada'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/home/jab/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099724] (-) TimerEvent: {}
+[0.135214] (obstacles) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.143613] (robot_trajectory) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199821] (-) TimerEvent: {}
+[0.228293] (robot_trajectory) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.228546] (obstacles) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.234727] (obstacles) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.235074] (robot_trajectory) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299927] (-) TimerEvent: {}
+[0.332804] (robot_trajectory) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.334440] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.343047] (obstacles) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.344849] (obstacles) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400036] (-) TimerEvent: {}
+[0.429212] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.450029] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.450940] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.456627] (robot_trajectory) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.461882] (obstacles) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.485731] (obstacles) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.486582] (obstacles) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.491750] (obstacles) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500143] (-) TimerEvent: {}
+[0.575733] (robot_trajectory) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.577456] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600257] (-) TimerEvent: {}
+[0.603360] (obstacles) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.606357] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.692212] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.706096] (-) TimerEvent: {}
+[0.712098] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.713151] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.729144] (robot_trajectory) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.729469] (robot_trajectory) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.729641] (robot_trajectory) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.729789] (robot_trajectory) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.729926] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.730284] (robot_trajectory) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.730474] (robot_trajectory) StderrLine: {'line': b'  any of the following names:\n'}
+[0.730737] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.730900] (robot_trajectory) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.731045] (robot_trajectory) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.731191] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.731335] (robot_trajectory) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.731475] (robot_trajectory) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.731634] (robot_trajectory) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.731792] (robot_trajectory) StderrLine: {'line': b'  has been installed.\n'}
+[0.732322] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.732554] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.733314] (robot_trajectory) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.733796] (robot_trajectory) StdoutLine: {'line': b'See also "/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles/CMakeOutput.log".\n'}
+[0.740114] (robot_trajectory) CommandEnded: {'returncode': 1}
+[0.743509] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.771790] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.772715] (obstacles) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.797682] (obstacles) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.797891] (obstacles) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.797985] (obstacles) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.798299] (obstacles) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.798393] (obstacles) StderrLine: {'line': b'\n'}
+[0.798477] (obstacles) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.798582] (obstacles) StderrLine: {'line': b'  any of the following names:\n'}
+[0.798693] (obstacles) StderrLine: {'line': b'\n'}
+[0.798776] (obstacles) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.798867] (obstacles) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.798958] (obstacles) StderrLine: {'line': b'\n'}
+[0.799051] (obstacles) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.799160] (obstacles) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.799250] (obstacles) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.799337] (obstacles) StderrLine: {'line': b'  has been installed.\n'}
+[0.799422] (obstacles) StderrLine: {'line': b'\n'}
+[0.799510] (obstacles) StderrLine: {'line': b'\n'}
+[0.799596] (obstacles) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.799697] (obstacles) StdoutLine: {'line': b'See also "/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles/CMakeFiles/CMakeOutput.log".\n'}
+[0.806185] (-) TimerEvent: {}
+[0.806504] (robot_trajectory) JobEnded: {'identifier': 'robot_trajectory', 'rc': 1}
+[0.807804] (obstacles) JobEnded: {'identifier': 'obstacles', 'rc': 'SIGINT'}
+[0.818259] (-) EventReactorShutdown: {}

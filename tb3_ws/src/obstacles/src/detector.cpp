@@ -7,13 +7,29 @@
 #include "example_interfaces/msg/bool.hpp"
 
 std::shared_ptr<rclcpp::Publisher<example_interfaces::msg::Bool>> publisher;
+double obs_angle_min=-M_PI/8, obs_angle_max=M_PI/8, obs_threshold=1.0;
 
 void callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
 {
     example_interfaces::msg::Bool out_msg;
     out_msg.data = false;
+    float angle_min = msg->angle_min;
+    float angle_increment = msg->angle_increment;
+    int start_index = (obs_angle_min - angle_min) / angle_increment;
+    int end_index = (obs_angle_max - angle_min) / angle_increment;
+    for (int i = start_index; i <= end_index; i++) {
+        float angle = angle_min + i * angle_increment;
+        float range = msg->ranges[i];
+        if (range<=obs_threshold){
+          out_msg.data=true;
+          break;
+      }
+      angle += msg->angle_increment;
+    }
     publisher->publish(out_msg);
 }
+
+
 
 int main(int argc, char * argv[])
 {
