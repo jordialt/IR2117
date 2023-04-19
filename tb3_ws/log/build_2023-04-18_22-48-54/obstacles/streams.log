@@ -1,0 +1,26 @@
+[0.087s] Invoking command in '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles -- -j4 -l4
+[0.159s] [35m[1mScanning dependencies of target avoidance[0m
+[0.203s] [ 50%] Built target detector
+[0.203s] [ 75%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[2.001s] [01m[K/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/avoidance.cpp:25:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool front_obstacle[m[K’
+[2.002s]    25 | bool [01;31m[Kfront_obstacle[m[K=false, left_obstacle=false, right_obstacle=false;
+[2.002s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.002s] [01m[K/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/avoidance.cpp:10:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool front_obstacle[m[K’ previously defined here
+[2.002s]    10 | bool [01;36m[Kfront_obstacle[m[K = false, left_obstacle = false, right_obstacle = false;
+[2.002s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.003s] [01m[K/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/avoidance.cpp:25:28:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool left_obstacle[m[K’
+[2.003s]    25 | bool front_obstacle=false, [01;31m[Kleft_obstacle[m[K=false, right_obstacle=false;
+[2.003s]       |                            [01;31m[K^~~~~~~~~~~~~[m[K
+[2.003s] [01m[K/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/avoidance.cpp:10:30:[m[K [01;36m[Knote: [m[K‘[01m[Kbool left_obstacle[m[K’ previously defined here
+[2.003s]    10 | bool front_obstacle = false, [01;36m[Kleft_obstacle[m[K = false, right_obstacle = false;
+[2.003s]       |                              [01;36m[K^~~~~~~~~~~~~[m[K
+[2.003s] [01m[K/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/avoidance.cpp:25:49:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool right_obstacle[m[K’
+[2.003s]    25 | bool front_obstacle=false, left_obstacle=false, [01;31m[Kright_obstacle[m[K=false;
+[2.004s]       |                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.004s] [01m[K/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/avoidance.cpp:10:53:[m[K [01;36m[Knote: [m[K‘[01m[Kbool right_obstacle[m[K’ previously defined here
+[2.004s]    10 | bool front_obstacle = false, left_obstacle = false, [01;36m[Kright_obstacle[m[K = false;
+[2.005s]       |                                                     [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.112s] make[2]: *** [CMakeFiles/avoidance.dir/build.make:63: CMakeFiles/avoidance.dir/src/avoidance.cpp.o] Error 1
+[4.112s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/avoidance.dir/all] Error 2
+[4.112s] make: *** [Makefile:141: all] Error 2
+[4.115s] Invoked command in '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles -- -j4 -l4
