@@ -51,14 +51,14 @@ int main(int argc, char * argv[])
                     current_state = State::TURN_RIGHT; // Update the state if there's an obstacle on the left
                 }
                 message.linear.x = 0; // Stop moving forward
-                message.angular.z = 0.5; // Turn left with an angular velocity of 0.5 rad/s
+                message.angular.z = 0.4; // Turn left with an angular velocity of 0.5 rad/s
                 break;
             case State::TURN_RIGHT:
                 if (!left_obstacle) {
                     current_state = State::FORWARD; // Update the state if the obstacle on the left is cleared
                 }
                 message.linear.x = 0; // Stop moving forward
-                message.angular.z = -0.5; // Turn right with an angular velocity of -0.5 rad/s
+                message.angular.z = -0.4; // Turn right with an angular velocity of -0.5 rad/s
                 break;
             default:
                 // This should never happen

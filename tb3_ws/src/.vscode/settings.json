@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/obstacles"
+    "cmake.sourceDirectory": "${workspaceFolder}/obstacles",
+    "files.associations": {
+        "system_error": "cpp"
+    }
 }
