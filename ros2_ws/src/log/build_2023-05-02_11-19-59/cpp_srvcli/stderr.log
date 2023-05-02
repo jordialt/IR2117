@@ -1,0 +1,4 @@
+make[2]: *** Se borra el archivo 'CMakeFiles/server.dir/src/add_two_ints_server.cpp.o'
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Interrupción
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/server.dir/all] Interrupción
+make: *** [Makefile:141: all] Interrupción

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable server[0m
+[100%] Built target server
+-- Install configuration: ""
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/lib/cpp_srvcli/server
+-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/package.xml

@@ -1,0 +1,59 @@
+[0.031s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli
+[0.540s] -- The C compiler identification is GNU 9.4.0
+[1.008s] -- The CXX compiler identification is GNU 9.4.0
+[1.034s] -- Check for working C compiler: /usr/bin/cc
+[1.522s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.528s] -- Detecting C compiler ABI info
+[2.017s] -- Detecting C compiler ABI info - done
+[2.062s] -- Detecting C compile features
+[2.062s] -- Detecting C compile features - done
+[2.088s] -- Check for working CXX compiler: /usr/bin/c++
+[2.504s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.522s] -- Detecting CXX compiler ABI info
+[2.930s] -- Detecting CXX compiler ABI info - done
+[3.009s] -- Detecting CXX compile features
+[3.010s] -- Detecting CXX compile features - done
+[3.029s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.064s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.290s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.335s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.342s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.407s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.434s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.551s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.563s] -- Looking for pthread.h
+[3.962s] -- Looking for pthread.h - found
+[3.982s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.439s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.440s] -- Looking for pthread_create in pthreads
+[4.641s] -- Looking for pthread_create in pthreads - not found
+[4.652s] -- Looking for pthread_create in pthread
+[5.112s] -- Looking for pthread_create in pthread - found
+[5.121s] -- Found Threads: TRUE  
+[5.244s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[5.332s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.488s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.489s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.489s] -- Configured cppcheck include dirs: 
+[5.489s] -- Configured cppcheck exclude dirs and/or files: 
+[5.490s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.490s] -- Configured cpplint exclude dirs and/or files: 
+[5.490s] -- Added test 'lint_cmake' to check CMake code style
+[5.491s] -- Added test 'uncrustify' to check C / C++ code style
+[5.491s] -- Configured uncrustify additional arguments: 
+[5.492s] -- Added test 'xmllint' to check XML markup files
+[5.556s] -- Configuring done
+[5.604s] -- Generating done
+[5.618s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/build/cpp_srvcli
+[5.626s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli
+[5.632s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/build/cpp_srvcli -- -j6 -l6
+[5.765s] [35m[1mScanning dependencies of target server[0m
+[5.814s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[12.910s] make[2]: *** Se borra el archivo 'CMakeFiles/server.dir/src/add_two_ints_server.cpp.o'
+[12.910s] make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Interrupción
+[12.910s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/server.dir/all] Interrupción
+[12.910s] make: *** [Makefile:141: all] Interrupción
+[13.055s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/build/cpp_srvcli' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/build/cpp_srvcli -- -j6 -l6
