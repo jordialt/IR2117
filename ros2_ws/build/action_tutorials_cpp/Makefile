@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named action_client
+
+# Build rule for target.
+action_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 action_client
+.PHONY : action_client
+
+# fast build rule for target.
+action_client/fast:
+	$(MAKE) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/build
+.PHONY : action_client/fast
+
+#=============================================================================
 # Target rules for targets named action_server
 
 # Build rule for target.
@@ -206,6 +219,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/action_client.o: src/action_client.cpp.o
+
+.PHONY : src/action_client.o
+
+# target to build an object file
+src/action_client.cpp.o:
+	$(MAKE) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/src/action_client.cpp.o
+.PHONY : src/action_client.cpp.o
+
+src/action_client.i: src/action_client.cpp.i
+
+.PHONY : src/action_client.i
+
+# target to preprocess a source file
+src/action_client.cpp.i:
+	$(MAKE) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/src/action_client.cpp.i
+.PHONY : src/action_client.cpp.i
+
+src/action_client.s: src/action_client.cpp.s
+
+.PHONY : src/action_client.s
+
+# target to generate assembly for a file
+src/action_client.cpp.s:
+	$(MAKE) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/src/action_client.cpp.s
+.PHONY : src/action_client.cpp.s
+
 src/action_server.o: src/action_server.cpp.o
 
 .PHONY : src/action_server.o
@@ -243,12 +283,16 @@ help:
 	@echo "... install/local"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... action_client"
 	@echo "... action_server"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... action_tutorials_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... src/action_client.o"
+	@echo "... src/action_client.i"
+	@echo "... src/action_client.s"
 	@echo "... src/action_server.o"
 	@echo "... src/action_server.i"
 	@echo "... src/action_server.s"

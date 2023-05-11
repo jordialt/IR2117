@@ -1,4 +1,5 @@
 /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_server
+/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_client
 /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
 /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
 /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
