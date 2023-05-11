@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000195] (-) JobUnselected: {'identifier': 'examples_sum'}
+[0.000214] (-) JobUnselected: {'identifier': 'examples_topics'}
+[0.000231] (action_tutorial_interfaces) JobQueued: {'identifier': 'action_tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000271] (action_tutorial_interfaces) JobStarted: {'identifier': 'action_tutorial_interfaces'}
+[0.095083] (-) TimerEvent: {}
+[0.100291] (action_tutorial_interfaces) JobProgress: {'identifier': 'action_tutorial_interfaces', 'progress': 'cmake'}
+[0.100897] (action_tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/action_tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorial_interfaces'], 'cwd': '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2711'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:59557'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob05.act.uji.es:@/tmp/.ICE-unix/2802,unix/labrob05.act.uji.es:/tmp/.ICE-unix/2802'), ('INVOCATION_ID', '91de4d50bf7c43388d6d4db27237681e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08a5ff83_0db6_43de_9b89_91641daf0333'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorial_interfaces'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.195211] (-) TimerEvent: {}
+[0.295686] (-) TimerEvent: {}
+[0.395951] (-) TimerEvent: {}
+[0.496247] (-) TimerEvent: {}
+[0.596517] (-) TimerEvent: {}
+[0.673743] (action_tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.696617] (-) TimerEvent: {}
+[0.796876] (-) TimerEvent: {}
+[0.897167] (-) TimerEvent: {}
+[0.997443] (-) TimerEvent: {}
+[1.097686] (-) TimerEvent: {}
+[1.197947] (-) TimerEvent: {}
+[1.205465] (action_tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.253230] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.298042] (-) TimerEvent: {}
+[1.398304] (-) TimerEvent: {}
+[1.498587] (-) TimerEvent: {}
+[1.598910] (-) TimerEvent: {}
+[1.699206] (-) TimerEvent: {}
+[1.799471] (-) TimerEvent: {}
+[1.882930] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.893342] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.899574] (-) TimerEvent: {}
+[1.999822] (-) TimerEvent: {}
+[2.100082] (-) TimerEvent: {}
+[2.200347] (-) TimerEvent: {}
+[2.300643] (-) TimerEvent: {}
+[2.400923] (-) TimerEvent: {}
+[2.501220] (-) TimerEvent: {}
+[2.559765] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.601326] (-) TimerEvent: {}
+[2.602077] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.602692] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.640673] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.701430] (-) TimerEvent: {}
+[2.801995] (-) TimerEvent: {}
+[2.902337] (-) TimerEvent: {}
+[3.002594] (-) TimerEvent: {}
+[3.102889] (-) TimerEvent: {}
+[3.203168] (-) TimerEvent: {}
+[3.303452] (-) TimerEvent: {}
+[3.308401] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.325046] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.403551] (-) TimerEvent: {}
+[3.503904] (-) TimerEvent: {}
+[3.604225] (-) TimerEvent: {}
+[3.704524] (-) TimerEvent: {}
+[3.804819] (-) TimerEvent: {}
+[3.905084] (-) TimerEvent: {}
+[3.977190] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.005187] (-) TimerEvent: {}
+[4.025124] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.025484] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.067280] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.105277] (-) TimerEvent: {}
+[4.108944] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.109110] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.205377] (-) TimerEvent: {}
+[4.305634] (-) TimerEvent: {}
+[4.387434] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.405735] (-) TimerEvent: {}
+[4.506000] (-) TimerEvent: {}
+[4.525667] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.529973] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.537873] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.606105] (-) TimerEvent: {}
+[4.625902] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.652911] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.706205] (-) TimerEvent: {}
+[4.732262] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.756153] (action_tutorial_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[4.756324] (action_tutorial_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'action/Fibonacci.action'\n"}
+[4.756384] (action_tutorial_interfaces) StderrLine: {'line': b"  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR\n"}
+[4.756435] (action_tutorial_interfaces) StderrLine: {'line': b"  '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/action_tutorial_interfaces'\n"}
+[4.756486] (action_tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.756537] (action_tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:36 (rosidl_generate_interfaces)\n'}
+[4.756584] (action_tutorial_interfaces) StderrLine: {'line': b'\n'}
+[4.756631] (action_tutorial_interfaces) StderrLine: {'line': b'\n'}
+[4.756963] (action_tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.757082] (action_tutorial_interfaces) StdoutLine: {'line': b'See also "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorial_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[4.764494] (action_tutorial_interfaces) CommandEnded: {'returncode': 1}
+[4.806351] (-) TimerEvent: {}
+[4.840985] (action_tutorial_interfaces) JobEnded: {'identifier': 'action_tutorial_interfaces', 'rc': 1}
+[4.851566] (-) EventReactorShutdown: {}

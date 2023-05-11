@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.001245] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001286] (-) JobUnselected: {'identifier': 'examples_sum'}
+[0.001327] (-) JobUnselected: {'identifier': 'examples_topics'}
+[0.001361] (action_tutorials_interfaces) JobQueued: {'identifier': 'action_tutorials_interfaces', 'dependencies': OrderedDict()}
+[0.001385] (action_tutorials_interfaces) JobStarted: {'identifier': 'action_tutorials_interfaces'}
+[0.035005] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'cmake'}
+[0.035298] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/action_tutorials_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces'], 'cwd': '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2711'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/IR2117'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:59557'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob05.act.uji.es:@/tmp/.ICE-unix/2802,unix/labrob05.act.uji.es:/tmp/.ICE-unix/2802'), ('INVOCATION_ID', '91de4d50bf7c43388d6d4db27237681e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08a5ff83_0db6_43de_9b89_91641daf0333'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorials_interfaces'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.098954] (-) TimerEvent: {}
+[0.124257] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.198721] (-) TimerEvent: {}
+[0.215626] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.225029] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.298821] (-) TimerEvent: {}
+[0.365812] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.370156] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398988] (-) TimerEvent: {}
+[0.499244] (-) TimerEvent: {}
+[0.501166] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.532573] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.532813] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.540074] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.599357] (-) TimerEvent: {}
+[0.699623] (-) TimerEvent: {}
+[0.705801] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.714565] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.799726] (-) TimerEvent: {}
+[0.861311] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.895439] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.895990] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.899843] (-) TimerEvent: {}
+[0.904828] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.941756] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.942067] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.999953] (-) TimerEvent: {}
+[1.100231] (-) TimerEvent: {}
+[1.144258] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.200373] (-) TimerEvent: {}
+[1.240170] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.243260] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.248084] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.300484] (-) TimerEvent: {}
+[1.325199] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.351898] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.400614] (-) TimerEvent: {}
+[1.413803] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.488162] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.500715] (-) TimerEvent: {}
+[1.600987] (-) TimerEvent: {}
+[1.701263] (-) TimerEvent: {}
+[1.801531] (-) TimerEvent: {}
+[1.814670] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.901659] (-) TimerEvent: {}
+[2.001919] (-) TimerEvent: {}
+[2.102169] (-) TimerEvent: {}
+[2.202426] (-) TimerEvent: {}
+[2.302680] (-) TimerEvent: {}
+[2.402977] (-) TimerEvent: {}
+[2.503260] (-) TimerEvent: {}
+[2.551728] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.603410] (-) TimerEvent: {}
+[2.703662] (-) TimerEvent: {}
+[2.803910] (-) TimerEvent: {}
+[2.904157] (-) TimerEvent: {}
+[3.004411] (-) TimerEvent: {}
+[3.065865] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.102134] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.104490] (-) TimerEvent: {}
+[3.104810] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.150041] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.150280] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.150348] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.150404] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.177765] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.204596] (-) TimerEvent: {}
+[3.304855] (-) TimerEvent: {}
+[3.405111] (-) TimerEvent: {}
+[3.453333] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.455844] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.457553] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.505214] (-) TimerEvent: {}
+[3.525824] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.576025] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.598008] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorials_interfaces\n'}
+[3.605296] (-) TimerEvent: {}
+[3.608258] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[3.611508] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'build'}
+[3.614749] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorials_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2711'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/IR2117'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:59557'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob05.act.uji.es:@/tmp/.ICE-unix/2802,unix/labrob05.act.uji.es:/tmp/.ICE-unix/2802'), ('INVOCATION_ID', '91de4d50bf7c43388d6d4db27237681e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08a5ff83_0db6_43de_9b89_91641daf0333'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorials_interfaces'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[3.705426] (-) TimerEvent: {}
+[3.750961] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__cpp\x1b[0m\n'}
+[3.757513] (action_tutorials_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.769768] (action_tutorials_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.805521] (-) TimerEvent: {}
+[3.906007] (-) TimerEvent: {}
+[4.006511] (-) TimerEvent: {}
+[4.046231] (action_tutorials_interfaces) StdoutLine: {'line': b'[  6%] Built target action_tutorials_interfaces__cpp\n'}
+[4.097564] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_generator_c\x1b[0m\n'}
+[4.106590] (-) TimerEvent: {}
+[4.134499] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.134676] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.148031] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.196353] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials_interfaces/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[4.206680] (-) TimerEvent: {}
+[4.306959] (-) TimerEvent: {}
+[4.359481] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.361031] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.396679] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.407051] (-) TimerEvent: {}
+[4.434389] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.477985] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.507160] (-) TimerEvent: {}
+[4.607432] (-) TimerEvent: {}
+[4.707725] (-) TimerEvent: {}
+[4.719836] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.807826] (-) TimerEvent: {}
+[4.820359] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 29%] Built target action_tutorials_interfaces__rosidl_generator_c\n'}
+[4.888826] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.905341] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.905494] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.905570] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.907900] (-) TimerEvent: {}
+[5.008149] (-) TimerEvent: {}
+[5.108393] (-) TimerEvent: {}
+[5.208655] (-) TimerEvent: {}
+[5.245548] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[5.295675] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.308755] (-) TimerEvent: {}
+[5.409050] (-) TimerEvent: {}
+[5.509354] (-) TimerEvent: {}
+[5.609666] (-) TimerEvent: {}
+[5.709950] (-) TimerEvent: {}
+[5.721962] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp\n'}
+[5.810060] (-) TimerEvent: {}
+[5.876936] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.910166] (-) TimerEvent: {}
+[5.970137] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.010270] (-) TimerEvent: {}
+[6.041259] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[6.050129] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[6.110362] (-) TimerEvent: {}
+[6.210635] (-) TimerEvent: {}
+[6.214717] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.283370] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.310732] (-) TimerEvent: {}
+[6.411117] (-) TimerEvent: {}
+[6.511379] (-) TimerEvent: {}
+[6.611720] (-) TimerEvent: {}
+[6.712038] (-) TimerEvent: {}
+[6.812669] (-) TimerEvent: {}
+[6.912979] (-) TimerEvent: {}
+[7.013304] (-) TimerEvent: {}
+[7.113588] (-) TimerEvent: {}
+[7.213876] (-) TimerEvent: {}
+[7.314224] (-) TimerEvent: {}
+[7.414534] (-) TimerEvent: {}
+[7.514879] (-) TimerEvent: {}
+[7.615236] (-) TimerEvent: {}
+[7.715561] (-) TimerEvent: {}
+[7.815869] (-) TimerEvent: {}
+[7.916174] (-) TimerEvent: {}
+[8.016610] (-) TimerEvent: {}
+[8.116937] (-) TimerEvent: {}
+[8.217229] (-) TimerEvent: {}
+[8.317538] (-) TimerEvent: {}
+[8.417858] (-) TimerEvent: {}
+[8.440106] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_c\n'}
+[8.517976] (-) TimerEvent: {}
+[8.618293] (-) TimerEvent: {}
+[8.718575] (-) TimerEvent: {}
+[8.819096] (-) TimerEvent: {}
+[8.919395] (-) TimerEvent: {}
+[9.019690] (-) TimerEvent: {}
+[9.120009] (-) TimerEvent: {}
+[9.220306] (-) TimerEvent: {}
+[9.238457] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.243313] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.244320] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.279364] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.320423] (-) TimerEvent: {}
+[9.420699] (-) TimerEvent: {}
+[9.520986] (-) TimerEvent: {}
+[9.576471] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.621091] (-) TimerEvent: {}
+[9.651500] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[9.721218] (-) TimerEvent: {}
+[9.821537] (-) TimerEvent: {}
+[9.921822] (-) TimerEvent: {}
+[10.022090] (-) TimerEvent: {}
+[10.070808] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.122197] (-) TimerEvent: {}
+[10.222488] (-) TimerEvent: {}
+[10.322827] (-) TimerEvent: {}
+[10.423467] (-) TimerEvent: {}
+[10.523790] (-) TimerEvent: {}
+[10.624107] (-) TimerEvent: {}
+[10.724449] (-) TimerEvent: {}
+[10.824749] (-) TimerEvent: {}
+[10.833385] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.858482] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces\x1b[0m\n'}
+[10.878618] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces\n'}
+[10.911365] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__py\x1b[0m\n'}
+[10.924845] (-) TimerEvent: {}
+[10.944408] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.024960] (-) TimerEvent: {}
+[11.125231] (-) TimerEvent: {}
+[11.225473] (-) TimerEvent: {}
+[11.325756] (-) TimerEvent: {}
+[11.426025] (-) TimerEvent: {}
+[11.526300] (-) TimerEvent: {}
+[11.552581] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_tutorials_interfaces__py\n'}
+[11.584655] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__python\x1b[0m\n'}
+[11.626463] (-) TimerEvent: {}
+[11.689592] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__python.dir/rosidl_generator_py/action_tutorials_interfaces/action/_fibonacci_s.c.o\x1b[0m\n'}
+[11.726568] (-) TimerEvent: {}
+[11.826860] (-) TimerEvent: {}
+[11.880275] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/libaction_tutorials_interfaces__python.so\x1b[0m\n'}
+[11.926958] (-) TimerEvent: {}
+[12.027243] (-) TimerEvent: {}
+[12.127546] (-) TimerEvent: {}
+[12.227863] (-) TimerEvent: {}
+[12.328140] (-) TimerEvent: {}
+[12.361103] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] Built target action_tutorials_interfaces__python\n'}
+[12.428238] (-) TimerEvent: {}
+[12.464705] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[12.464962] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.465312] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.528388] (-) TimerEvent: {}
+[12.625914] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.627124] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.628448] (-) TimerEvent: {}
+[12.631083] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.728558] (-) TimerEvent: {}
+[12.802251] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.802439] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.818841] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.828656] (-) TimerEvent: {}
+[12.928932] (-) TimerEvent: {}
+[13.029287] (-) TimerEvent: {}
+[13.129927] (-) TimerEvent: {}
+[13.230243] (-) TimerEvent: {}
+[13.330537] (-) TimerEvent: {}
+[13.430926] (-) TimerEvent: {}
+[13.509692] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext\n'}
+[13.522526] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[13.530992] (-) TimerEvent: {}
+[13.631317] (-) TimerEvent: {}
+[13.731636] (-) TimerEvent: {}
+[13.767844] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.778609] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[13.826617] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'install'}
+[13.831785] (-) TimerEvent: {}
+[13.845561] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorials_interfaces'], 'cwd': '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2711'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/IR2117'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:59557'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob05.act.uji.es:@/tmp/.ICE-unix/2802,unix/labrob05.act.uji.es:/tmp/.ICE-unix/2802'), ('INVOCATION_ID', '91de4d50bf7c43388d6d4db27237681e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08a5ff83_0db6_43de_9b89_91641daf0333'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/action_tutorials_interfaces'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/examples_sum:/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[13.870570] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.870762] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces\n'}
+[13.880270] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[13.880451] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[13.880515] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.882401] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[13.882509] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/fibonacci.h\n'}
+[13.884065] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[13.884154] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.h\n'}
+[13.885814] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__functions.c\n'}
+[13.891467] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__struct.h\n'}
+[13.893614] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__functions.h\n'}
+[13.899279] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh\n'}
+[13.899568] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv\n'}
+[13.906513] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so\n'}
+[13.931885] (-) TimerEvent: {}
+[13.966713] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.966975] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[13.967067] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[13.967143] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.969749] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[13.969877] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[13.969953] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[13.973341] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.012936] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.013148] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[14.013238] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[14.013289] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.015255] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[14.015415] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[14.015467] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/dds_fastrtps\n'}
+[14.015534] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.018594] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.031964] (-) TimerEvent: {}
+[14.071945] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.072146] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[14.072209] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[14.072263] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.074543] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[14.074682] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[14.074761] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[14.077232] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.c\n'}
+[14.081977] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.128667] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.128970] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so\n'}
+[14.132083] (-) TimerEvent: {}
+[14.161235] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[14.161419] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[14.161489] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[14.161542] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[14.161591] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp\n'}
+[14.165917] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__traits.hpp\n'}
+[14.172107] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__builder.hpp\n'}
+[14.178325] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/fibonacci.hpp\n'}
+[14.184976] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[14.185136] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[14.185197] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[14.185254] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp\n'}
+[14.189707] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.195822] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.232195] (-) TimerEvent: {}
+[14.276444] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.276645] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\n'}
+[14.314870] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[14.315087] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh\n'}
+[14.318059] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv\n'}
+[14.323704] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py\n'}
+[14.332276] (-) TimerEvent: {}
+[14.358583] (action_tutorials_interfaces) StdoutLine: {'line': b"Compiling '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py'...\n"}
+[14.362019] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action\n'}
+[14.362245] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_fibonacci.py\n'}
+[14.378356] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/__init__.py\n'}
+[14.384538] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_fibonacci_s.c\n'}
+[14.388888] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.427999] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.428227] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.432342] (-) TimerEvent: {}
+[14.474535] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.475034] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.519757] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.519945] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so\n'}
+[14.532431] (-) TimerEvent: {}
+[14.571862] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so" to ""\n'}
+[14.572050] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.idl\n'}
+[14.574031] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.action\n'}
+[14.575853] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces\n'}
+[14.585092] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces\n'}
+[14.590281] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh\n'}
+[14.590544] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.592282] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh\n'}
+[14.592553] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv\n'}
+[14.594134] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash\n'}
+[14.596006] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh\n'}
+[14.597869] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh\n'}
+[14.599796] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv\n'}
+[14.604727] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv\n'}
+[14.609740] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces\n'}
+[14.610337] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.618568] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.624070] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.631068] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.632494] (-) TimerEvent: {}
+[14.637809] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.645192] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.651865] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.659065] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.665837] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.670385] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.675025] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.680589] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.683044] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.688021] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.693094] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.697597] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.699387] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.701091] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.702738] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake\n'}
+[14.705333] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake\n'}
+[14.706977] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml\n'}
+[14.716144] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[14.734089] (-) TimerEvent: {}
+[14.834536] (-) TimerEvent: {}
+[14.883322] (action_tutorials_interfaces) JobEnded: {'identifier': 'action_tutorials_interfaces', 'rc': 0}
+[14.884798] (-) EventReactorShutdown: {}
