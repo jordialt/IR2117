@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/detector.cpp" "/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles/CMakeFiles/detector.dir/src/detector.cpp.o"
+  "/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/detector.cpp" "/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/obstacles/CMakeFiles/detector.dir/src/detector.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

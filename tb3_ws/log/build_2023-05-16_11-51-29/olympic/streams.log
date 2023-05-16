@@ -1,0 +1,5 @@
+[0.051s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/olympic -- -j6 -l6
+[0.075s] [35m[1mScanning dependencies of target rings[0m
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/rings.dir/src/rings.cpp.o[0m
+[3.234s] [100%] [32m[1mLinking CXX executable rings[0m
+[3.459s] [100%] Built target rings

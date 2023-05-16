@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jab/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory
+CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory
+CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -78,14 +78,14 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/wandering.dir/all:
 	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/depend
 	$(MAKE) -f CMakeFiles/wandering.dir/build.make CMakeFiles/wandering.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles --progress-num=3,4 "Built target wandering"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles --progress-num=3,4 "Built target wandering"
 .PHONY : CMakeFiles/wandering.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wandering.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wandering.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
 .PHONY : CMakeFiles/wandering.dir/rule
 
 # Convenience name for target.
@@ -105,14 +105,14 @@ CMakeFiles/wandering.dir/clean:
 CMakeFiles/square_odom.dir/all:
 	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/depend
 	$(MAKE) -f CMakeFiles/square_odom.dir/build.make CMakeFiles/square_odom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles --progress-num=1,2 "Built target square_odom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles --progress-num=1,2 "Built target square_odom"
 .PHONY : CMakeFiles/square_odom.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/square_odom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/square_odom.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
 .PHONY : CMakeFiles/square_odom.dir/rule
 
 # Convenience name for target.
@@ -132,14 +132,14 @@ CMakeFiles/square_odom.dir/clean:
 CMakeFiles/robot_trajectory_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/robot_trajectory_uninstall.dir/build.make CMakeFiles/robot_trajectory_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/robot_trajectory_uninstall.dir/build.make CMakeFiles/robot_trajectory_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles --progress-num= "Built target robot_trajectory_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles --progress-num= "Built target robot_trajectory_uninstall"
 .PHONY : CMakeFiles/robot_trajectory_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/robot_trajectory_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/robot_trajectory_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
 .PHONY : CMakeFiles/robot_trajectory_uninstall.dir/rule
 
 # Convenience name for target.
@@ -159,14 +159,14 @@ CMakeFiles/robot_trajectory_uninstall.dir/clean:
 CMakeFiles/uninstall.dir/all: CMakeFiles/robot_trajectory_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jab/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.

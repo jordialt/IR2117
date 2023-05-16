@@ -1,1 +1,0 @@
-Invoking command in '/home/jab/Documentos/GitHub/IR2117/tb3_ws/build/obstacles': /usr/bin/cmake /home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles -DCMAKE_INSTALL_PREFIX=/home/jab/Documentos/GitHub/IR2117/tb3_ws/install/obstacles

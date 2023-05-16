@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/detector.cpp
+/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/detector.cpp
 iostream
 -
 rclcpp/rclcpp.hpp
-/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/rclcpp/rclcpp.hpp
+/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/rclcpp/rclcpp.hpp
 sensor_msgs/msg/laser_scan.hpp
-/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/sensor_msgs/msg/laser_scan.hpp
+/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/sensor_msgs/msg/laser_scan.hpp
 example_interfaces/msg/bool.hpp
-/home/jab/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/example_interfaces/msg/bool.hpp
+/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/obstacles/src/example_interfaces/msg/bool.hpp
 cmath
 -
 
