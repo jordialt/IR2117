@@ -17,6 +17,12 @@ rclcpp::Node::SharedPtr g_node = nullptr;
 void feedback_callback(GoalHandleRings::SharedPtr,
   const std::shared_ptr<const Rings::Feedback> feedback)
 {
+  std::stringstream ss;
+  ss << std::setprecision(3) << "Circle n." << feedback->drawing_ring << " at "
+     << feedback->ring_angle << " degrees";
+  RCLCPP_INFO(
+    g_node->get_logger(),
+    ss.str().c_str());  // stringstream to string and then to char*
 }
 
 int main(int argc, char ** argv)
