@@ -108,6 +108,14 @@ void execute(const std::shared_ptr<GoalHandleRings> goal_handle)
 		request_teleport_absolute->theta = 0;
 
     result_teleport_absolute = client_teleport_absolute->async_send_request(request_teleport_absolute);
+    
+     // Publish feedback 
+    ring_number = i+1;
+    ring_angle = 0;
+    
+    goal_handle->publish_feedback(feedback);
+    RCLCPP_INFO(rclcpp::get_logger("server"), 
+       "Publish Feedback");
 
 
 		request_set_pen->off = 0;
